@@ -98,3 +98,21 @@ color: #FFFFFF;
 width: 92vw;
 left: 6vh;
 }
+
+.wwd-button{
+margin-left: 22vh;
+border: 1px dashed #8DDDFF;
+font-size: 24px;
+border-radius: 100px;
+
+
+}
+
+.wwd-card-text{
+  font-size: 2rem;
+}
+
+.wwd-p{
+  margin-top: -32px;
+    margin-bottom: -1rem;
+}
