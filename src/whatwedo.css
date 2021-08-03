@@ -1,0 +1,100 @@
+
+
+/* 
+
+.wwd-title{
+  color:white;
+    
+    
+}
+
+#project{
+    position: absolute;
+width: 123px;
+height: 32px;
+left: 59px;
+top: 1214px;
+
+font-family: Cerebri Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 32px;
+/* identical to box height */
+
+/* text-align: center;
+
+color: #FFFFFF;
+} */ 
+.wwd-body{
+  width: 100vw;
+height: 1000vh;
+
+background: #00B2FF;
+box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.25);
+}
+
+
+.wwd-title{
+  position: absolute;
+  width: 20vw;
+  height: 10vh;
+  left: 2vh;
+  top: 4vh;
+
+font-family: Cerebri Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 0%;
+
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+
+#project{
+  position: absolute;
+
+left: 6vh;
+top: 18vh;
+
+font-family: Cerebri Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 32px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+ #competitions{
+  position: absolute;
+
+  left: 45vh;
+  top: 18vh;
+  
+  font-family: Cerebri Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 32px;
+  /* identical to box height */
+  
+  
+  color: #FFFFFF;
+  
+ }
+
+.wwd-cards{
+  position: absolute;
+  top: 30vh;
+width: 92vw;
+left: 6vh;
+}
