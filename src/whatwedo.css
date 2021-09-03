@@ -108,7 +108,7 @@ border-radius: 100px;
 
 .card-body{
 /* position: absolute; */
-width: 283px;
+width: 329px;
 height: 48px;
 /* left: 59px;
 top: 1517px; */
@@ -120,7 +120,45 @@ font-size: 25px;
 line-height: 32px;
 display: flex;
 align-items: center;
-
+background: #0E4170;
 color: #8DDDFF;
+
+}
+
+
+.btn-circle.btn-sm {
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 15px;
+  font-size: 8px;
+  text-align: center;
+  background: #8DDDFF;
+  border: 1px dashed #8DDDFF;
+box-sizing: border-box;
+color: black;
+font-family: Cerebri Sans;
+/* font-size: 30px; */
+font-style: normal;
+font-weight: 500;
+}
+.btn-circle.btn-md {
+  width: 50px;
+  height: 50px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-size: 10px;
+  text-align: center;
+
+
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 12px;
+  text-align: center;
+ 
 
 }
