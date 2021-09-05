@@ -97,7 +97,15 @@ border-radius: 100px;
 }
 
 .wwd-card-text{
-  font-size: 2rem;
+
+  font-family: Cerebri Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 300;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
 }
 
 .wwd-p{
@@ -138,9 +146,12 @@ color: #8DDDFF;
 box-sizing: border-box;
 color: black;
 font-family: Cerebri Sans;
-/* font-size: 30px; */
+/* font-size: 2vh; */
 font-style: normal;
 font-weight: 500;
+position: absolute;
+left: 280px;
+
 }
 .btn-circle.btn-md {
   width: 50px;
@@ -149,7 +160,7 @@ font-weight: 500;
   border-radius: 25px;
   font-size: 10px;
   text-align: center;
-
+ 
 
 }
 .btn-circle.btn-xl {
@@ -162,3 +173,4 @@ font-weight: 500;
  
 
 }
+
