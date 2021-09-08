@@ -3,8 +3,9 @@ import "./whatwedo.css"
 
 const Whatwedo = () => {
     return (
-        <div className="wwd-body">
-            <h1 className="wwd-title" >What we do</h1>
+     
+        <div className="wwd-body"  >
+            <h1 className="wwd-title" id="my-title">What we do</h1>
             <div >
                 <span id='project'>PROJECTS</span>
                 <span id='competitions'>COMPETITIONS</span>
@@ -22,17 +23,9 @@ const Whatwedo = () => {
 
             <div class="card-body">
               <p class="card-text" className="wwd-card-text wwd-p">Project Name
-              {/* <button type="button"  className="wwd-button"> </button> */}
-              </p>  
-              <button type="button" class="btn btn-primary btn-circle btn-sm">+</button>
-             
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  
-                  
-                </div>
-               
-              </div>
+              </p> 
+
+              <button type="button" class="btn btn-primary btn-circle btn-sm wwd-button">+</button>
             </div>
           </div>
         </div>
@@ -174,6 +167,7 @@ const Whatwedo = () => {
             
            
         </div>
+       
     )
 }
 

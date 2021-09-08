@@ -1,18 +1,11 @@
 
-.wwd-title{
-  font-family: Cerebri Sans;
-font-size: 48px;
-font-style: normal;
-font-weight: 500;
-letter-spacing: 0em;
-text-align: left;
+/* .wwd-body{
+  width: 1500px;
+height: 120vh;
 
-}
-.wwd-body{
-  width: 100vw;
-height: 1000vh;
 
-background: #00B2FF;
+
+background-color: #00B2FF;
 box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.25);
 
 font-size: 48px;
@@ -20,32 +13,35 @@ font-style: normal;
 font-weight: 500;
 letter-spacing: 0em;
 text-align: left;
-}
+} */
 
 
 .wwd-title{
-  position: absolute;
+  /* position: relative;
   width: 20vw;
   height: 10vh;
   left: 2vh;
-  top: 4vh;
+  top: 4vh; */
+  position: relative;
+top: 50px;
+left: 40px;
 
 font-family: Cerebri Sans;
 font-style: normal;
 font-weight: 500;
-font-size: 48px;
+font-size: 4vw;
 line-height: 0%;
 
 
-display: flex;
+/* display: flex; */
 align-items: center;
 
-color: #FFFFFF;
+color: black;
 
 }
 
 #project{
-  position: absolute;
+  position: relative;
 
 left: 6vh;
 top: 18vh;
@@ -53,30 +49,30 @@ top: 18vh;
 font-family: Cerebri Sans;
 font-style: normal;
 font-weight: 500;
-font-size: 25px;
+font-size: 2vw;
 line-height: 32px;
 /* identical to box height */
 
 text-align: center;
 
-color: #FFFFFF;
+color: black;
 
 }
  #competitions{
-  position: absolute;
+  position: relative;
 
-  left: 45vh;
+  left: 25vh;
   top: 18vh;
   
   font-family: Cerebri Sans;
   font-style: normal;
   font-weight: 500;
-  font-size: 25px;
+  font-size: 2vw;
   line-height: 32px;
   /* identical to box height */
   
   
-  color: #FFFFFF;
+  color: black;
   
  }
 
@@ -87,24 +83,18 @@ width: 92vw;
 left: 6vh;
 }
 
-.wwd-button{
-margin-left: 22vh;
-border: 1px dashed #8DDDFF;
-font-size: 24px;
-border-radius: 100px;
 
-
-}
 
 .wwd-card-text{
 
   font-family: Cerebri Sans;
-font-size: 25px;
+font-size: 2vw;
 font-style: normal;
 font-weight: 300;
 line-height: 32px;
 letter-spacing: 0em;
 text-align: left;
+justify-content: center;
 
 }
 
@@ -132,6 +122,12 @@ background: #0E4170;
 color: #8DDDFF;
 
 }
+/* .wwd-button{
+  position: relative;
+  right:200px;
+  
+
+} */
 
 
 .btn-circle.btn-sm {
@@ -149,28 +145,43 @@ font-family: Cerebri Sans;
 /* font-size: 2vh; */
 font-style: normal;
 font-weight: 500;
-position: absolute;
-left: 280px;
+position: relative;
+left: 5.2rem;
+
+
+
 
 }
-.btn-circle.btn-md {
+/* .btn-circle.btn-md {
   width: 50px;
   height: 50px;
   padding: 7px 10px;
   border-radius: 25px;
   font-size: 10px;
   text-align: center;
- 
+  float: right;
+  margin-left: -50%;
+  margin-top: 2em;
 
-}
-.btn-circle.btn-xl {
+} */
+/* .btn-circle.btn-xl {
   width: 70px;
   height: 70px;
   padding: 10px 16px;
   border-radius: 35px;
   font-size: 12px;
   text-align: center;
+  float: right;
+  margin-left: -50%;
+  margin-top: 2em;
+
+} */
+.card-body{
+  width: 100%;
+}
+
+@media only screen and (max-width: 1050px) {
+
  
 
 }
-
